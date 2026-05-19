@@ -1,0 +1,4376 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Arial";
+}
+
+
+.page1{
+    width: 100%;
+    height: 12dvh;
+    background-color: #131212;
+
+}
+
+
+.compani{
+    position: absolute;
+    top:4%;
+    left:8%;
+    font-size: 22.5px;
+    font-weight: bold;
+    color:white;
+    font-family:"Arial";
+}
+
+
+.companiinfa{
+    position: absolute;
+    top:7%;
+    left:8%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.342);
+    font-family:"Arial";
+}
+
+
+.btn{
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    width: 12%;
+    height: 7%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.adres{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 4%;
+    right: 21.5%;
+}
+
+
+.number{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 7%;
+    right:21.5%;
+    font-weight: bold;
+}
+
+
+.btn11{
+    position: absolute;
+    top:2.5%;
+    right: 2.8%;
+    height: 9%;
+    width: 4%;  
+    background-image: url(colnq.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+
+}
+
+
+.page2{
+    width: 100%;
+    height: 100dvh;
+    background-color:  #131212;
+}
+
+
+.photo1{
+    position: absolute;
+    background-image: url(fon_2.jpg);
+    background-size: cover;
+    background-position: center;
+    top:15%;
+    left:2%;
+    height: 80%;
+    width: 96%;
+    border-radius: 30px; 
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top :20%;
+    left: 8%;
+    width: 84%;
+    height: 7%;
+    border-radius: 15px;
+}
+
+
+.stranith1{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 8.5%;
+    border: 1.5px solid rgb(255, 253, 253);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith1:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith2{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 16.8%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith2:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+}
+
+
+.stranith3{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 25.1%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith3:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith4{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 33.4%;
+    border: 1.5px solid rgb(255, 254, 254);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith4:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith5{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 41.7%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith5:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith6{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 50%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith6:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.proekterovanie{
+    position: absolute;
+    top:35%;
+    left:8.2%;
+    font-size: 34px;
+    color:#c5420f;
+    font-family:"Arial";
+}
+
+
+.doma{
+    position: absolute;
+    top:38%;
+    left:8.2%;
+    font-size: 59px;
+    color:#c5420f;
+    font-family:"Arial";
+    font-weight: bold;
+    font-family:"Arial";
+}
+
+
+.infa1{
+    position: absolute;
+    background-color: transparent;
+    top:53%;
+    left: 8.2%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 7%;
+    height: 4%;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.infa2{
+    position: absolute;
+    background-color: transparent;
+    top:53%;
+    left: 15.5%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 10%;
+    height: 4%;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.infa3{
+    position: absolute;
+    background-color: transparent;
+    top:58%;
+    left: 8.2%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 17.3%;
+    height: 4%;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ramkaphoto{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top :64%;
+    left: 8%;
+    width: 17.6%;
+    height: 24%;
+    border-radius: 15px;
+    border:  1px solid black solid white;
+}
+
+
+.photo2{
+    position: absolute;
+    background-image: url(kartinka_1.jpg);
+    background-size: cover;
+    background-position: center;
+    top:66%;
+    left:9%;
+    height: 20.5%;
+    width: 15.7%;
+    border-radius: 13px;
+}
+
+
+.page3{
+    position: absolute;
+    background-color: #101011;
+    top:112%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.photo3{
+    position: absolute;
+    top:-5%;
+    left:8%;
+    height: 33%;
+    width: 27%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.photo3-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_13.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo3:hover .photo3-image{
+    transform: scale(1.2);
+}
+
+
+.kamennihous{
+    position: absolute;
+    top:30%;
+    left:8.2%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: wheat solid 2px;
+    width: 26%;
+    height: 7%;
+    border: none;
+}
+  
+
+.kamennihous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    border: none;
+    font-family:"Arial";
+}
+
+
+.kamennihousinfa{
+    position: absolute;
+    top:339%;
+    left:8.2%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+
+.photo4{
+    position: absolute;
+    top:-5%;
+    left:36.4%;
+    height: 33%;
+    width: 27%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.photo4-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_5.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+
+.photo4:hover .photo4-image{
+    transform: scale(1.2);
+}
+
+
+.kombennihous{
+    position: absolute;
+    top:30%;
+    left:36.5%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: #191919 solid 2px;
+    width: 28%;
+    height: 7%;
+    border: none;
+}
+  
+
+.kombennihous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.kombennihousinfa{
+    position: absolute;
+    top:32.5%;
+    left:36.5%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo5{
+    position: absolute;
+    top:-5%;
+    right: 8%;
+    height: 33%;
+    width: 27%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+
+.photo5-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_12.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+
+.photo5:hover .photo5-image{
+    transform: scale(1.2);
+}
+
+
+.karkashous{
+    position: absolute;
+    top:30%;
+    left:65%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border:  #101011 solid 2px;
+    width: 32.8%;
+    height: 7%;
+}
+  
+
+.karkashous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.karkashousinfa{
+    position: absolute;
+    top:32.8%;
+    left:65.1%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo6{
+    position: absolute;
+    overflow: hidden;
+    top: 38.5%;
+    left:8%;
+    height: 33%;
+    width: 27%;
+    border-radius: 13px;
+}
+
+
+.photo6-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_8.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo6:hover .photo6-image{
+    transform: scale(1.2);
+}
+
+
+.housandkotedg{
+    position: absolute;
+    top:73.5%;
+    left:8.2%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: wheat solid 2px;
+    width: 26%;
+    height: 7%;
+    border: none;
+}
+  
+
+.housandkotedg:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    border: none;
+    font-family:"Arial";
+}
+
+
+.housandkotedginfa{
+    position: absolute;
+    top:76.2%;
+    left:8%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo7{
+    position: absolute;
+    overflow: hidden;
+    top:38.5%;
+    left:36.4%;
+    height: 33%;
+    width: 27%;
+    border-radius: 13px;
+}
+
+
+.photo7-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_9.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo7:hover .photo7-image{
+    transform: scale(1.2);
+}
+
+
+.blockhous{
+    position: absolute;
+    top:73.5%;
+    left:36.5%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: #191919 solid 2px;
+    width: 28%;
+    height: 7%;
+    border: none;
+}
+  
+
+.blockhous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.blockhousinfa{
+    position: absolute;
+    top:76.1%;
+    left:36.5%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo8{
+    position: absolute;
+    overflow: hidden;
+    top:38.5%;
+    right: 8%;
+    height: 33%;
+    width: 27%;
+    border-radius: 13px;
+}
+
+
+.photo8-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_14.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo8:hover .photo8-image{
+    transform: scale(1.2);
+}
+
+
+
+.indivhous{
+    position: absolute;
+    top:73.5%;
+    left:65%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border:  #101011 solid 2px;
+    width: 32.8%;
+    height: 7%;
+}
+ 
+
+.indivhous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.indivhousinfa{
+    position: absolute;
+    top:76.5%;
+    left:65.1%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.page4{
+    position: absolute;
+    background-image: url(kartinka_7.webp); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:205%;
+    left: 0%;
+    height: 95dvh;
+    width: 100%;
+}
+
+
+.kartochka1{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top:11%;
+    left: 8.2%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 27%;
+    height: 12%;
+    border-radius: 15px;    
+}
+
+
+.S1{
+    position: absolute;
+    top:14%;
+    left:10%;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color:  #ff6600; 
+    font-family:"Arial";
+}
+
+
+.m21{
+    position: absolute;
+    top:14.8%;
+    left:18%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+
+}
+
+
+.territoriq1{
+    position: absolute;
+    top:17.2%;
+    left:18%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.kartochka2{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top:11%;
+    left: 36.5%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 27%;
+    height: 12%;
+    border-radius: 15px; 
+}
+
+
+.S2{
+    position: absolute;
+    top:14%;
+    left:38.5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color:  #ff6600;  
+    font-family:"Arial"; 
+}
+
+
+.m22{
+    position: absolute;
+    top:15%;
+    left:45%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.territoriq2{
+    position: absolute;
+    top:17.5%;
+    left:45%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.kartochka3{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top:11%;
+    right: 8%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 27%;
+    height: 12%;
+    border-radius: 15px;    
+}
+
+
+.S3{
+    position: absolute;
+    top:14%;
+    left: 66.5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color:  #ff6600;
+    font-family:"Arial";
+    
+}
+
+
+.m23{
+    position: absolute;
+    top:15%;
+    left:71.5%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+
+}
+
+
+.territoriq3{
+    position: absolute;
+    top:17.5%;
+    left:71.5%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.page5{
+    position: absolute;
+    background-color: #101011;
+    top:236.8%;
+    left: 0%;
+    height: 75%;
+    width: 100%;
+}
+
+
+.glavnay{
+    position: absolute;
+    top:18%;
+    left:8%;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.glavnayinfa{
+    position: absolute;
+    top:30%;
+    left:8%;
+    font-size: 16px;
+    color:rgb(163, 163, 163);
+    border: #101011 1px solid;
+    width: 85%;
+    height:20%;
+}
+
+
+.photo9{
+    position: absolute;
+    background-image: url(kartinka_21.png);
+    background-size: cover;
+    background-position: center;
+    top:50%;
+    left:8%;
+    height: 25%;
+    width: 38%;
+    border-radius: 15px; 
+}
+
+
+.photo10{
+    position: absolute;
+    background-image: url(kartinka_4.webp);
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    right: 8%;
+    height: 25%;
+    width:45%;
+    border-radius: 15px;
+}
+
+
+.photo11{
+    position: absolute;
+    background-image: url(kr.webp);
+    background-size: cover;
+    background-position: center;
+    top: 76.2%;
+    left: 3.5%;
+    height: 10%;
+    width:10%;   
+}
+
+
+.vezd{
+    position: absolute;
+    top:80%;
+    left:9.5%;
+    font-size: 16px;
+    color:rgb(163, 163, 163);
+}
+
+
+.photo12{
+    position: absolute;
+    background-image: url(kr.webp);
+    background-size: cover;
+    background-position: center;
+    top: 76.2%;
+    left: 43%;
+    height: 10%;
+    width:10%;   
+}
+
+
+.oplata{
+    position: absolute;
+    top:80%;
+    left:49%;
+    font-size: 16px;
+    color:rgb(163, 163, 163);
+}
+
+
+.page6{
+    position: absolute;
+    background-image: url(kartinka_26.jpg); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:311.7%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.raschetmane{
+    position: absolute;
+    top:10%;
+    left:8%;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.zauvka{
+    position: absolute;
+    top:16.5%;
+    left:7.9%;
+    font-size: 15px;
+    color:  #cf6118;
+    font-weight: bold;
+    background-color: #191919;
+    width: 38%;
+    height: 5%;
+    text-align: center;
+    align-content: center;
+    border-radius:5px;
+}
+
+
+.zauvka:hover{
+    background-color:#cf6118;
+    color: #191919;
+}
+
+
+.name{
+    position: absolute;
+    top: 26.5%;
+    left: 8%;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);;
+    width:31%;
+    height: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+
+::placeholder {
+  color:  #c5420f;
+  font-weight: bold;
+}
+
+
+.phonenumber{
+    position: absolute;
+    top: 26.5%;
+    left: 40.7%;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);;
+    width:40%;
+    height: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+
+.btn2{
+    position: absolute;
+    top: 26.1%;
+    right: 8%;
+    width: 9%;
+    height: 6%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.page7{
+    position: absolute;
+    background-color: #101011;
+    top:355%;
+    left: 0%;
+    height: 250%;
+    width: 100%;
+}
+
+
+.gotovproekt{
+    position: absolute;
+    top:5%;
+    left:8%;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.karta1{
+    position: absolute;
+    background-color: transparent;
+    top:8%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 14%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo13{
+    position: absolute;
+    top:9%;
+    left: 9%;
+    height: 12.2%;
+    width: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo13-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_11.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo13:hover .photo13-image{
+    transform: scale(1.2);
+}
+
+
+.proekt1{
+    position:absolute;
+    top:10%;
+    left:50%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer1{
+    position: absolute;
+    background-color:transparent;
+    top:12%;
+    left: 50%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva{
+    position: absolute;
+    background-color:transparent;
+    top:12%;
+    left: 61.5%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous{
+    position: absolute;
+    background-color:transparent;
+    top:12%;
+    left: 73%;
+    border: 1px solid rgb(116, 110, 110);
+    width:14%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money1{
+    position: absolute;
+    top: 14.5%;
+    left: 51.8%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money11{
+    position: absolute;
+    top: 14.8%;
+    left: 50%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn3{
+    position: absolute;
+    top: 18.8%;
+    right: 9%;
+    width: 9%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.karta2{
+    position: absolute;
+    background-color: transparent;
+    top:22.5%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 14%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo14{
+    position: absolute;
+    top:23.5%;
+    right: 9%;
+    height: 12.2%;
+    width: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo14-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_6.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo14:hover .photo14-image{
+    transform: scale(1.2);
+}
+
+
+.proekt2{
+    position:absolute;
+    top:24%;
+    left:9%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer2{
+    position: absolute;
+    background-color:transparent;
+    top:26%;
+    left: 9%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva2{
+    position: absolute;
+    background-color:transparent;
+    top:26%;
+    left: 20.5%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous2{
+    position: absolute;
+    background-color:transparent;
+    top:26%;
+    left: 32%;
+    border: 1px solid rgb(116, 110, 110);
+    width:14%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money2{
+    position: absolute;
+    top: 28.5%;
+    left: 10.7%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money22{
+    position: absolute;
+    top: 28.8%;
+    left: 9%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn4{
+    position: absolute;
+    top: 33.2%;
+    left:42.5%;
+    width: 9%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.karta3{
+    position: absolute;
+    background-color: transparent;
+    top:37%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 14%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo15{
+    position: absolute;
+    top:38%;
+    left: 9%;
+    height: 12.2%;
+    width: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo15-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_3.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo15:hover .photo15-image{
+    transform: scale(1.2);
+}
+
+
+.proekt3{
+    position:absolute;
+    top:39%;
+    left:50%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer3{
+    position: absolute;
+    background-color:transparent;
+    top:41%;
+    left: 50%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva3{
+    position: absolute;
+    background-color:transparent;
+    top:41%;
+    left: 61.5%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous3{
+    position: absolute;
+    background-color:transparent;
+    top:41%;
+    left: 73%;
+    border: 1px solid rgb(116, 110, 110);
+    width:18.5%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money3{
+    position: absolute;
+    top: 43.5%;
+    left: 52%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money33{
+    position: absolute;
+    top: 43.8%;
+    left: 50%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn5{
+    position: absolute;
+    top: 47.7%;
+    right: 9%;
+    width: 9%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+ 
+.karta4{
+    position: absolute;
+    background-color: transparent;
+    top:51.5%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 14%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo16{
+    position: absolute;
+    top:52.5%;
+    right: 9%;
+    height: 12.2%;
+    width: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+
+.photo16-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_21.png);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo16:hover .photo16-image{
+    transform: scale(1.2);
+}
+
+
+.proekt4{
+    position:absolute;
+    top:53.5%;
+    left:9%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer4{
+    position: absolute;
+    background-color:transparent;
+    top:55.5%;
+    left: 9%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva4{
+    position: absolute;
+    background-color:transparent;
+    top:55.5%;
+    left: 20.5%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous4{
+    position: absolute;
+    background-color:transparent;
+    top:55.5%;
+    left: 32%;
+    border: 1px solid rgb(116, 110, 110);
+    width:13%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money4{
+    position: absolute;
+    top: 58%;
+    left: 11%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money44{
+    position: absolute;
+    top: 58.3%;
+    left: 9%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn6{
+    position: absolute;
+    top: 62.2%;
+    left: 42.5%;
+    width: 9%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+
+.karta5{
+    position: absolute;
+    background-color: transparent;
+    top: 66%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 14%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo17{
+    position: absolute;
+    top: 67%;
+    left: 9%;
+    height: 12.2%;
+    width: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo17-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_49.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo17:hover .photo17-image{
+    transform: scale(1.2);
+}
+
+
+.proekt5{
+    position:absolute;
+    top:68%;
+    left:50%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer5{
+    position: absolute;
+    background-color:transparent;
+    top:70%;
+    left: 50%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva5{
+    position: absolute;
+    background-color:transparent;
+    top:70%;
+    left: 61.5%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous5{
+    position: absolute;
+    background-color:transparent;
+    top:70%;
+    left: 73%;
+    border: 1px solid rgb(116, 110, 110);
+    width:14%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money5{
+    position: absolute;
+    top: 72.5%;
+    left: 52%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money55{
+    position: absolute;
+    top: 72.8%;
+    left: 50%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn7{
+    position: absolute;
+    top: 76.7%;
+    right: 9%;
+    width: 9%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+
+.karta6{
+    position: absolute;
+    background-color: transparent;
+    top:80.5%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 14%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo18{
+    position: absolute;
+    top:81.5%;
+    right: 9%;
+    height: 12.2%;
+    width: 38%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo18-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_50.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo18:hover .photo18-image{
+    transform: scale(1.2);
+}
+
+
+.proekt6{
+    position:absolute;
+    top:82.5%;
+    left:9%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer6{
+    position: absolute;
+    background-color:transparent;
+    top:84.5%;
+    left: 9%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva6{
+    position: absolute;
+    background-color:transparent;
+    top:84.5%;
+    left: 20.5%;
+    border: 1px solid rgb(116, 110, 110);
+    width:11%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous6{
+    position: absolute;
+    background-color:transparent;
+    top:84.5%;
+    left: 32%;
+    border: 1px solid rgb(116, 110, 110);
+    width:12%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money6{
+    position: absolute;
+    top: 87%;
+    left: 10.7%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money66{
+    position: absolute;
+    top: 87.3%;
+    left: 9%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn8{
+    position: absolute;
+    top: 91.2%;
+    left: 42.5%;
+    width: 9%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.page8{
+    position: absolute;
+    background-image: url(fon22.jpg); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:605%;
+    left: 0%;
+    height: 80%;
+    width: 100%;
+}
+
+
+.photo19{
+
+    position: absolute;
+    background-image: url(kartinka_25.jpg);
+    background-size: cover;
+    background-position: center;
+    top:20%;
+    left:8%;
+    height: 55%;
+    width: 36%;
+    border-radius: 15px; 
+}
+
+
+.karta7{
+    position: absolute;
+    top: 29%;
+    right: 8%;
+    width: 53%;
+    height: 35%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.predlog{
+    position: absolute;
+    top:34%;
+    left: 41%;
+    font-size: 25px;
+    color:  #ff6600;
+}
+
+
+.skidka{
+    position: absolute;
+    top:39%;
+    left: 41%;
+    font-size: 32px;
+    color:  #000000;
+    font-weight: bold;
+}
+
+
+.ubileycompani{
+    position: absolute;
+    top:44.5%;
+    left: 41%;
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    border:1px solid rgb(255, 255, 255);
+    width: 50%;
+}
+
+
+.btn9{
+    position: absolute;
+    top: 52%;
+    left: 41%;
+    width: 9%;
+    height: 7%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.page9{
+    position: absolute;
+    top:680%;
+    left: 0%;
+    width: 100%;
+    height: 45%;
+    background-color:  #131212;
+}
+
+
+.regimrobot{
+    position: absolute;
+    top:25%;
+    left:8%;
+    font-size: 20px;
+    color: rgb(190, 188, 188);
+}
+
+
+.day{
+    position: absolute;
+    top:33%;
+    left:8%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+
+.day2{
+    position: absolute;
+    top:38.5%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.zvonok{
+    position: absolute;
+    top:55%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.nomer{
+    position: absolute;
+    top:61%;
+    left:8%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.predlogeniu{
+    position: absolute;
+    top:25%;
+    left:50%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.sylka{
+    position: absolute;
+    top:32%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 123, 0);
+}
+
+
+.adress{
+    position: absolute;
+    top:55%;
+    left:50%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+
+.adres3{
+    position: absolute;
+    top:62%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.border{
+    position: absolute;
+    top: 83%;
+    left: 0%;
+    background-color: rgb(190, 188, 188);
+    width: 100%;
+    height: 1px;
+}
+
+
+@media all and (max-width: 768px){
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Arial";
+}
+
+
+.page1{
+    width: 100%;
+    height: 12dvh;
+    background-color: #131212;
+
+}
+
+
+.compani{
+    position: absolute;
+    top:4%;
+    left:8%;
+    font-size: 22.5px;
+    font-weight: bold;
+    color:white;
+    font-family:"Arial";
+}
+
+
+.companiinfa{
+    position: absolute;
+    top:7.5%;
+    left:8%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.342);
+    font-family:"Arial";
+}
+
+
+.btn{
+    position: absolute;
+    top: 20.5%;
+    left: 8%;
+    width: 28%;
+    height: 7%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.adres{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 13%;
+    left: 8%;
+}
+
+
+.number{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 16%;
+    left: 8%;
+    font-weight: bold;
+}
+
+
+.btn11{
+    position: absolute;
+    top:2.5%;
+    right: 2.8%;
+    height: 9%;
+    width: 12%;  
+    background-image: url(colnq.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+
+}
+
+
+.page2{
+    width: 100%;
+    height: 100dvh;
+    background-color:  #131212;
+}
+
+
+.photo1{
+    position: absolute;
+    background-image: url(fon_2.jpg);
+    background-size: cover;
+    background-position: center;
+    top:33%;
+    left:2%;
+    height: 70%;
+    width: 96%;
+    border-radius: 30px; 
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top :54.8%;
+    left: 8%;
+    width: 30%;
+    height: 42%;
+    border-radius: 15px;
+}
+
+
+.stranith1{
+    position: absolute;
+    background-color: transparent;
+    top :57%;
+    left: 9.2%;
+    border: 1.5px solid rgb(255, 253, 253);
+    width: 28%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith1:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith2{
+    position: absolute;
+    background-color: transparent;
+    top :63.5%;
+    left:9.2%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 28%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith2:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+}
+
+
+.stranith3{
+    position: absolute;
+    background-color: transparent;
+    top :70%;
+    left: 9.2%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 28%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith3:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith4{
+    position: absolute;
+    background-color: transparent;
+    top :76.5%;
+    left: 9.2%;
+    border: 1.5px solid rgb(255, 254, 254);
+    width: 28%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith4:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith5{
+    position: absolute;
+    background-color: transparent;
+    top:83%;
+    left: 9.2%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 28%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith5:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith6{
+    position: absolute;
+    background-color: transparent;
+    top :89.5%;
+    left:9.2%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 28%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith6:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.proekterovanie{
+    position: absolute;
+    top: 42.5%;
+    left:8.2%;
+    font-size: 30px;
+    color:#c5420f;
+    font-family:"Arial";
+}
+
+
+.doma{
+    position: absolute;
+    top:46%;
+    left:8.2%;
+    font-size: 40px;
+    color:#c5420f;
+    font-family:"Arial";
+    font-weight: bold;
+    font-family:"Arial";
+}
+
+
+.infa1{
+    position: absolute;
+    background-color: transparent;
+    top:66%;
+    left: 47.5%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 20%;
+    height: 4%;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.infa2{
+    position: absolute;
+    background-color: transparent;
+    top:66%;
+    left: 68.8%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 25%;
+    height: 4%;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.infa3{
+    position: absolute;
+    background-color: transparent;
+    top:71%;
+    left: 50.6%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width:40%;
+    height: 4%;
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ramkaphoto{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top:76.5%;
+    left: 54.5%;
+    width: 32%;
+    height: 20.5%;
+    border-radius: 15px;
+    border:  1px solid black solid white;
+}
+
+
+.photo2{
+    position: absolute;
+    background-image: url(kartinka_1.jpg);
+    background-size: cover;
+    background-position: center;
+    top:79.2%;
+    left:57.7%;
+    height: 15.5%;
+    width: 25.7%;
+    border-radius: 13px;
+}
+
+
+
+
+.page3{
+    position: absolute;
+    background-color: #101011;
+    top:112%;
+    left: 0%;
+    height: 200%;
+    width: 100%;
+}
+
+
+.photo3{
+    position: absolute;
+    top:-2%;
+    left:2%;
+    height: 15%;
+    width:46%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.photo3-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_13.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo3:hover .photo3-image{
+    transform: scale(1.2);
+}
+
+
+.kamennihous{
+    position: absolute;
+    top:14%;
+    left:3%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: wheat solid 2px;
+    width: 40%;
+    height: 7%;
+    border: none;
+}
+  
+
+.kamennihous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    border: none;
+    font-family:"Arial";
+}
+
+
+.kamennihousinfa{
+    position: absolute;
+    top:15.5%;
+    left:3%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo4{
+    position: absolute;
+    top:-2%;
+    left: 52%;
+    height: 15%;
+    width: 46%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.photo4-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_5.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo4:hover .photo4-image{
+    transform: scale(1.2);
+}
+
+
+.kombennihous{
+    position: absolute;
+    top: 14%;
+    left:52%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: #191919 solid 2px;
+    width: 50%;
+    height: 7%;
+    border: none;
+}
+  
+
+.kombennihous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.kombennihousinfa{
+    position: absolute;
+    top:15.5%;
+    left:52%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo5{
+    position: absolute;
+    top:20%;
+    left: 2%;
+    height: 15%;
+    width: 46%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+
+.photo5-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_12.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo5:hover .photo5-image{
+    transform: scale(1.2);
+}
+
+
+.karkashous{
+    position: absolute;
+    top:36%;
+    left:3%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border:  #101011 solid 2px;
+    width: 32.8%;
+    height: 7%;
+}
+  
+
+.karkashous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.karkashousinfa{
+    position: absolute;
+    top:37.8%;
+    left:3.2%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo6{
+    position: absolute;
+    overflow: hidden;
+    top: 20%;
+    left:52%;
+    height: 15%;
+    width: 46%;
+    border-radius: 13px;
+}
+
+
+.photo6-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_8.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo6:hover .photo6-image{
+    transform: scale(1.2);
+}
+
+
+.housandkotedg{
+    position: absolute;
+    top:36%;
+    left:53%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: wheat solid 2px;
+    width: 35%;
+    height: 7%;
+    border: none;
+}
+  
+
+.housandkotedg:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    border: none;
+    font-family:"Arial";
+}
+
+
+.housandkotedginfa{
+    position: absolute;
+    top:37.8%;
+    left:52.7%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo7{
+    position: absolute;
+    overflow: hidden;
+    top:42%;
+    left:2%;
+    height: 15%;
+    width: 46%;
+    border-radius: 13px;
+}
+
+
+.photo7-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_9.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo7:hover .photo7-image{
+    transform: scale(1.2);
+}
+
+
+.blockhous{
+    position: absolute;
+    top:58%;
+    left:3%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border: #191919 solid 2px;
+    width: 28%;
+    height: 7%;
+    border: none;
+}
+  
+
+.blockhous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.blockhousinfa{
+    position: absolute;
+    top:60%;
+    left:3%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+.photo8{
+    position: absolute;
+    overflow: hidden;
+    top:42%;
+    left: 52%;
+    height: 15%;
+    width: 46%;
+    border-radius: 13px;
+}
+
+
+.photo8-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_14.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s; 
+}
+
+
+.photo8:hover .photo8-image{
+    transform: scale(1.2);
+}
+
+
+
+.indivhous{
+    position: absolute;
+    top:58%;
+    left:53%;
+    font-size: 22px;
+    color:white;
+    font-family:"Arial";
+    font-weight: bold;
+    border:  #101011 solid 2px;
+    width: 50%;
+    height: 7%;
+}
+ 
+
+.indivhous:hover{
+    color: #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.indivhousinfa{
+    position: absolute;
+    top:60%;
+    left:53%;
+    font-size: 20px;
+    color:rgb(117, 116, 116);
+    font-family:"Arial";
+}
+
+
+
+.page4{
+    position: absolute;
+    background-image: url(kartinka_7.webp); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:245%;
+    left: 0%;
+    height:100dvh;
+    width: 100%;
+}
+
+
+.kartochka1{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top:8%;
+    left: 8%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 84%;
+    height: 12%;
+    border-radius: 15px;    
+}
+
+
+.S1{
+    position: absolute;
+    top:11%;
+    left:12%;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color:  #ff6600; 
+    font-family:"Arial";
+}
+
+
+.m21{
+    position: absolute;
+    top:11.9%;
+    left:30%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+
+}
+
+
+.territoriq1{
+    position: absolute;
+    top:15%;
+    left:30%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.kartochka2{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top:22%;
+    left: 8%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 84%;
+    height: 12%;
+    border-radius: 15px; 
+}
+
+
+.S2{
+    position: absolute;
+    top:24.5%;
+    left:15.2%;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color:  #ff6600;  
+    font-family:"Arial"; 
+}
+
+
+.m22{
+    position: absolute;
+    top:25.5%;
+    left:30%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.territoriq2{
+    position: absolute;
+    top:28.5%;
+    left:30%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.kartochka3{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top:36%;
+    left: 8%;
+    border: 1px solid rgb(255, 255, 255);
+    width: 84%;
+    height: 12%;
+    border-radius: 15px;    
+}
+
+
+.S3{
+    position: absolute;
+    top:39%;
+    left: 18.5%;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color:  #ff6600;
+    font-family:"Arial";
+    
+}
+
+
+.m23{
+    position: absolute;
+    top:39.8%;
+    left:30%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+
+}
+
+
+.territoriq3{
+    position: absolute;
+    top:43%;
+    left:30%;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255 0.2);
+    color: rgb(255, 255, 255);
+    font-family:"Arial";
+}
+
+
+.page5{
+    position: absolute;
+    background-color: #101011;
+    top:302%;
+    left: 0%;
+    height:130%;
+    width: 100%;
+}
+
+
+.glavnay{
+    position: absolute;
+    top:7%;
+    left:8%;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.glavnayinfa{
+    position: absolute;
+    border: #101011 1px solid;
+    width: 85%;
+    height:20%;
+    top:14%;
+    left:8%;
+    font-size: 16px;
+    color:rgb(163, 163, 163);
+}
+
+
+.photo9{
+    position: absolute;
+    background-image: url(kartinka_21.png);
+    background-size: cover;
+    background-position: center;
+    top:35%;
+    left:23%;
+    height: 20%;
+    width: 50%;
+    border-radius: 15px; 
+}
+
+
+.photo10{
+    position: absolute;
+    background-image: url(kartinka_4.webp);
+    background-size: cover;
+    background-position: center;
+    top: 62%;
+    left: 23%;
+    height: 20%;
+    width:50%;
+    border-radius: 15px;
+}
+
+
+.photo11{
+    position: absolute;
+    background-image: url(kr.webp);
+    background-size: cover;
+    background-position: center;
+    top: 52.4%;
+    left:18.5%;
+    height: 10%;
+    width:10%;   
+}
+
+
+.vezd{
+    position: absolute;
+    top:56.7%;
+    left:27%;
+    font-size: 16px;
+    color:rgb(163, 163, 163);
+}
+
+
+.photo12{
+    position: absolute;
+    background-image: url(kr.webp);
+    background-size: cover;
+    background-position: center;
+    top: 79.5%;
+    left:18.5%;
+    height: 10%;
+    width:10%;   
+}
+
+
+.oplata{
+    position: absolute;
+    top:83.7%;
+    left:27%;
+    font-size: 16px;
+    color:rgb(163, 163, 163);
+}
+
+
+.page6{
+    position: absolute;
+    background-image: url(kartinka_26.jpg); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:420%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.raschetmane{
+    position: absolute;
+    top:5%;
+    left:5%;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+.zauvka{
+    position: absolute;
+    top:11.5%;
+    left:5%;
+    font-size: 13px;
+    color:  #cf6118;
+    font-weight: bold;
+    background-color: #191919;
+    width: 90%;
+    height: 5%;
+    text-align: center;
+    align-content: center;
+    border-radius:5px;
+}
+
+
+.zauvka:hover{
+    background-color:#cf6118;
+    color: #191919;
+}
+
+
+.name{
+    position: absolute;
+    top: 19%;
+    left: 5%;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);;
+    width:86%;
+    height: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+
+::placeholder {
+  color:  #c5420f;
+  font-weight: bold;
+}
+
+
+.phonenumber{
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);;
+    width:86%;
+    height: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+
+.btn2{
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    width: 30%;
+    height: 6%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.background{
+    position: absolute;
+    background-color: #101011;
+    top:100%;
+    left: 0%;
+    height: 330%;
+    width: 100%;
+}
+
+.page7{
+    position: absolute;
+    background-color: #101011;
+    top:466%;
+    left: 0%;
+    height: 250%;
+    width: 100%;
+}
+
+.gotovproekt{
+    position: absolute;
+    top:5%;
+    left:8%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.karta1{
+    position: absolute;
+    background-color: transparent;
+    top:8%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 23%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo13{
+    position: absolute;
+    top:18%;
+    left: 11.5%;
+    height: 12.2%;
+    width: 78%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo13-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_11.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo13:hover .photo13-image{
+    transform: scale(1.2);
+}
+
+
+.proekt1{
+    position:absolute;
+    top:9%;
+    left:11%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer1{
+    position: absolute;
+    background-color:transparent;
+    top:11%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva{
+    position: absolute;
+    background-color:transparent;
+    top:13%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous{
+    position: absolute;
+    background-color:transparent;
+    top:15%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money1{
+    position: absolute;
+    top: 12.2%;
+    left: 61%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money11{
+    position: absolute;
+    top: 12.5%;
+    left: 57.3%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn3{
+    position: absolute;
+    top: 14.1%;
+    left: 57%;
+    width: 30%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.karta2{
+    position: absolute;
+    background-color: transparent;
+    top:31.5%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 23%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo14{
+    position: absolute;
+    top:41.5%;
+    left: 11.5%;
+    height: 12.2%;
+    width: 78%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo14-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_6.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo14:hover .photo14-image{
+    transform: scale(1.2);
+}
+
+
+.proekt2{
+    position:absolute;
+    top: 32.5%;
+    left:11%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer2{
+    position: absolute;
+    background-color:transparent;
+    top:34.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva2{
+    position: absolute;
+    background-color:transparent;
+    top:36.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous2{
+    position: absolute;
+    background-color:transparent;
+    top:38.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money2{
+    position: absolute;
+    top: 35.7%;
+    left: 61.2%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money22{
+    position: absolute;
+    top: 36%;
+    left: 57.3%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn4{
+    position: absolute;
+    top: 37.6%;
+    left:57%;
+    width: 30%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.karta3{
+    position: absolute;
+    background-color: transparent;
+    top:55%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 23%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo15{
+    position: absolute;
+    top:65%;
+    left: 11.5%;
+    height: 12.2%;
+    width: 78%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo15-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_3.webp);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo15:hover .photo15-image{
+    transform: scale(1.2);
+}
+
+
+.proekt3{
+    position:absolute;
+    top:56%;
+    left:11%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer3{
+    position: absolute;
+    background-color:transparent;
+    top:58%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva3{
+    position: absolute;
+    background-color:transparent;
+    top:60%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous3{
+    position: absolute;
+    background-color:transparent;
+    top:62%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money3{
+    position: absolute;
+    top: 59.2%;
+    left: 61.5%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money33{
+    position: absolute;
+    top: 59.5%;
+    left: 57.3%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+.btn5{
+    position: absolute;
+    top: 61.1%;
+    left: 57%;
+    width: 30%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.karta4{
+    position: absolute;
+    background-color: transparent;
+    top:78.5%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 23%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo16{
+    position: absolute;
+    top:88.5%;
+    left: 11.5%;
+    height: 12.2%;
+    width: 78%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo16-image{
+    width: 170%;
+    height: 100%;
+    background-image: url(kartinka_21.png);
+    background-position: center;
+    background-size:cover;
+    transition-duration: 0.5s;
+}
+
+
+.photo16:hover .photo16-image{
+    transform: scale(1.2);
+}
+
+.proekt4{
+    position:absolute;
+    top:79.5%;
+    left:11%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer4{
+    position: absolute;
+    background-color:transparent;
+    top:81.5%;
+    left:11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva4{
+    position: absolute;
+    background-color:transparent;
+    top:83.5%;
+    left:11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous4{
+    position: absolute;
+    background-color:transparent;
+    top:85.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money4{
+    position: absolute;
+    top: 82.7%;
+    left: 61.3%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money44{
+    position: absolute;
+    top: 83%;
+    left: 57%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn6{
+    position: absolute;
+    top: 84.6%;
+    left: 57%;
+    width: 30%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.karta5{
+    position: absolute;
+    background-color: transparent;
+    top:102%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 23%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color:  #242424;
+}
+
+
+.photo17{
+    position: absolute;
+    top: 112%;
+    left: 11%;
+    height: 12.2%;
+    width: 78%;
+    border-radius: 20px;
+    overflow: hidden;
+}       
+
+
+.photo17-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_49.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo17:hover .photo17-image{
+    transform: scale(1.2);
+}
+
+
+.proekt5{
+    position:absolute;
+    top:103%;
+    left:11%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer5{
+    position: absolute;
+    background-color:transparent;
+    top:105%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva5{
+    position: absolute;
+    background-color:transparent;
+    top:107%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous5{
+    position: absolute;
+    background-color:transparent;
+    top:109%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money5{
+    position: absolute;
+    top: 106%;
+    left: 61.3%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money55{
+    position: absolute;
+    top: 106.3%;
+    left: 57%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn7{
+    position: absolute;
+    top: 108%;
+    left: 57%;
+    width: 30%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+
+.karta6{
+    position: absolute;
+    background-color: transparent;
+    top:125.5%;
+    left: 8%;
+    border: 1.5px solid rgb(163, 163, 163);
+    width: 84%;
+    height: 23%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    background-color: #242424;
+}
+
+
+.photo18{
+    position: absolute;
+    top:135.5%;
+    right: 11%;
+    height: 12.2%;
+    width: 78%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.photo18-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(kartinka_50.jpg);
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.5s;
+}
+
+
+.photo18:hover .photo18-image{
+    transform: scale(1.2);
+}
+
+
+.proekt6{
+    position:absolute;
+    top:126.5%;
+    left:11%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.rasmer6{
+    position: absolute;
+    background-color:transparent;
+    top:128.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.ydobstva6{
+    position: absolute;
+    background-color:transparent;
+    top:130.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.osobenostyhous6{
+    position: absolute;
+    background-color:transparent;
+    top:132.5%;
+    left: 11%;
+    border: 1px solid rgb(116, 110, 110);
+    width:40%;
+    height: 1.5%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    font-family:"Arial";
+}
+
+
+.money6{
+    position: absolute;
+    top: 129.7%;
+    left: 61.3%;
+    color: white;
+    font-size: 28px;
+}
+
+
+.money66{
+    position: absolute;
+    top: 130%;
+    left: 57%;
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+}
+
+
+.btn8{
+    position: absolute;
+    top: 131.6%;
+    left: 57%;
+    width: 30%;
+    height: 2.5%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.page8{
+    position: absolute;
+    background-image: url(fon22.jpg); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:850%;
+    left: 0%;
+    height: 60%;
+    width: 100%;
+}
+
+
+.photo19{
+
+    position: absolute;
+    background-image: url(kartinka_25.jpg);
+    background-size: cover;
+    background-position: center;
+    top:10%;
+    left:8%;
+    height: 65%;
+    width: 46%;
+    border-radius: 15px; 
+}
+
+
+.karta7{
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    width: 70%;
+    height: 35%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.predlog{
+    position: absolute;
+    top:58%;
+    left: 25%;
+    font-size: 20px;
+    color:  #ff6600;
+}
+
+
+.skidka{
+    position: absolute;
+    top:63%;
+    left: 25%;
+    font-size: 27px;
+    color:  #000000;
+    font-weight: bold;
+}
+
+
+.ubileycompani{
+    position: absolute;
+    top: 69%;
+    left: 25%;
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    border: 1px solid rgb(255, 255, 255);
+    width: 65%;
+}
+
+
+.btn9{
+    position: absolute;
+    top: 78%;
+    left: 71%;
+    width: 20%;
+    height: 10%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.page9{
+    position: absolute;
+    top:910%;
+    left: 0%;
+    width: 100%;
+    height: 45%;
+    background-color:  #131212;
+}
+
+
+.regimrobot{
+    position: absolute;
+    top:25%;
+    left:8%;
+    font-size: 20px;
+    color: rgb(190, 188, 188);
+}
+
+
+.day{
+    position: absolute;
+    top:33%;
+    left:8%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+
+.day2{
+    position: absolute;
+    top:38.5%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.zvonok{
+    position: absolute;
+    top:55%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.nomer{
+    position: absolute;
+    top:61%;
+    left:8%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.predlogeniu{
+    position: absolute;
+    top:25%;
+    left:50%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.sylka{
+    position: absolute;
+    top:32%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 123, 0);
+}
+
+
+.adress{
+    position: absolute;
+    top:55%;
+    left:50%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+
+.adres3{
+    position: absolute;
+    top:62%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.border{
+    position: absolute;
+    top: 83%;
+    left: 0%;
+    background-color: rgb(190, 188, 188);
+    width: 100%;
+    height: 1px;
+}
+
+
+}

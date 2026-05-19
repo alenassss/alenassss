@@ -1,0 +1,1531 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Arial";
+}
+
+.page1{
+    width: 100%;
+    height: 12dvh;
+    background-color: #131212;
+}
+
+
+.compani{
+    position: absolute;
+    top:4%;
+    left:8%;
+    font-size: 22.5px;
+    font-weight: bold;
+    color:white;
+    font-family:"Arial";
+    
+}
+
+
+.companiinfa{
+    position: absolute;
+    top:7%;
+    left:8%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.342);
+    font-family:"Arial";
+}
+
+
+.btn{
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    width: 12%;
+    height: 7%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.adres{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 4%;
+    right: 21.5%;
+
+}
+
+
+.number{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 7%;
+    right:21.5%;
+    font-weight: bold;
+}
+
+
+.page2{
+    width: 100%;
+    height: 100dvh;
+    background-color:  #131212;
+}
+
+
+.photo1{
+    position: absolute;
+    background-image: url(fon_2.jpg);
+    background-size: cover;
+    background-position: center;
+    top:15%;
+    left:2%;
+    height:20%;
+    width: 96%;
+    border-radius: 30px; 
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top :20%;
+    left: 8%;
+    width: 84%;
+    height: 7%;
+    border-radius: 15px;
+}
+
+
+.stranith1{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 8.5%;
+    border: 1.5px solid rgb(255, 253, 253);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith1:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith2{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 16.8%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith2:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+}
+
+
+.stranith3{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 25.1%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith3:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith4{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 33.4%;
+    border: 1.5px solid rgb(255, 254, 254);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith4:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith5{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 41.7%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith5:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith6{
+    position: absolute;
+    background-color: transparent;
+    top :21.1%;
+    left: 50%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 8%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 16px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith6:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+
+.page3{
+    position: absolute;
+    top:39%;
+    left: 0%;
+    width: 100%;
+    height: 150%;
+    background-color: white;
+}
+
+
+
+.uslygi{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.uslygiinfa{
+    position: absolute;
+    top: 15.5%;
+    left: 8%;
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+    border: 1px white solid;
+    width: 84%;
+}
+
+
+
+.zapolnenie{
+    position: absolute;
+    top: 34%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(71, 71, 71) ;
+}
+
+
+.zapolnenieinfa{
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 20px;
+    color: rgb(59, 59, 59);  
+    border: 1px white solid;
+    width: 84%;
+}
+
+.page4{
+    position: absolute;
+    top:150%;
+    left: 0%;
+    width: 100%;
+    height: 150%;
+    background-color:rgb(255, 255, 255);
+}
+
+.baza{
+    position: absolute;
+    background-image: url(car.png);
+    background-size: cover;
+    background-position: center;
+    top: 3%;
+    left: 19.8%;
+    height: 3%;
+    width: 4%;
+}
+
+.bazafon{
+    background-color:#eeffa0;
+    position: absolute;
+    top:0.5%;
+    left: 18.5%;
+    width: 6.5%;
+    height: 8%;
+    border-radius: 50%;
+}
+
+
+.baza1{
+    position: absolute;
+    top:9.5%;                                                                   
+    left: 18%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.baza1infa{
+    position: absolute;
+    top:12.5%;
+    left: 8%;
+    font-size: 18px;
+    color: #3b3434;
+}
+
+
+.money1{
+    position: absolute;
+    top:15%;
+    left: 19.3%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #201d1d;
+    text-decoration: line-through;
+}
+
+.money2{
+    position: absolute;
+    top:17.5%;
+    left: 18.5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.infa1{
+    position: absolute;
+    top:20.5%;
+    left: 8%;
+    font-size: 16px;
+}
+
+
+.btn1{
+    position: absolute;
+    top:32.5%;
+    left: 8%;
+    width: 27%;
+    height: 4%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    background: rgb(89, 182, 89);
+    color: white;
+    font-family:"Arial";
+}
+
+
+.standartfon{
+    background-color:#eeffa0;
+    position: absolute;
+    top:0.5%;
+    left: 47.1%;
+    width:6.5%;
+    height: 8%;
+    border-radius: 50%;
+}
+
+
+.standart1{
+    position: absolute;
+    top:9.5%;
+    left: 46.5%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.standart1infa{
+    position: absolute;
+    top:12.5%;
+    left: 38.5%;
+    font-size: 18px;
+    color: #3b3434;
+}
+
+
+
+.money3{
+    position: absolute;
+    top:15%;
+    left: 47.6%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #201d1d;
+    text-decoration: line-through;
+}
+
+.money4{
+    position: absolute;
+    top:17.5%;
+    left: 47.3%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.infa2{
+    position: absolute;
+    top:20.5%;
+    left: 36.5%;
+    font-size: 16px;
+}
+
+
+.btn2{
+    position: absolute;
+    top:32.5%;
+    left: 36.5%;
+    width: 27%;
+    height: 4%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    background: rgb(89, 182, 89);
+    color: white;
+    font-family:"Arial";
+}
+.btn3{
+    position: absolute;
+    top: 32.5%;
+    right: 8%;
+    width: 27%;
+    height: 4%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    background: rgb(89, 182, 89);
+    color: white;
+    font-family:"Arial";
+}
+
+.fast{
+    position: absolute;
+    background-image: url(raket.png);
+    background-size: cover;
+    background-position: center;
+    top: 2.6%;
+    left: 76.3%;
+    height: 4%;
+    width: 4%;
+}
+
+.fastfon{
+    background-color:#eeffa0;
+    position: absolute;
+    top:0.5%;
+    left: 75%;
+    width: 6.5%;
+    height: 8%; 
+    border-radius: 50%;
+}
+
+
+
+.fast1{
+    position: absolute;
+    top:9.5%;
+    left: 75.3%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.fast1infa{
+    position: absolute;
+    top:12.5%;
+    left: 65%;
+    font-size: 17.5px;
+    color: #3b3434;
+}
+
+.money5{
+    position: absolute;
+    top:15%;
+    left: 76%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #201d1d;
+    text-decoration: line-through;
+}
+
+.money6{
+    position: absolute;
+    top:17.5%;
+    left: 75.4%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.infa3{
+    position: absolute;
+    top:20.5%;
+    left: 65%;
+    font-size: 16px;
+}
+
+
+
+.page5{
+    position: absolute;
+    background-image: url(kartinka_333.webp); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:215%;
+    left: 0%;
+    height: 45%;
+    width: 100%;
+}
+
+
+.money{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+
+
+.zauvka{
+    position: absolute;
+    top:41%;
+    left:7.9%;
+    font-size: 15px;
+    color:  #cf6118;
+    font-weight: bold;
+    background-color: #191919;
+    width: 38%;
+    height: 11%;
+    text-align: center;
+    align-content: center;
+    border-radius:5px;
+}
+
+
+.zauvka:hover{
+    background-color:#ff6600;
+    color: #191919;
+}
+
+
+
+.name{
+    position: absolute;
+    top: 58%;
+    left: 8%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);;
+    width:31%;
+    height: 11%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+
+::placeholder {
+  color:  #ff4800;
+  font-weight: bold;
+}
+
+
+.phonenumber{
+    position: absolute;
+    top: 58%;
+    left: 40.7%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);;
+    width:40%;
+    height: 11%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+
+.btn20{
+    position: absolute;
+    top: 58.1%;
+    right: 8%;
+    width: 9%;
+    height: 12%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.page6{
+    position: absolute;
+    top:260%;
+    left: 0%;
+    width: 100%;
+    height: 45%;
+    background-color:  #131212;
+}
+
+
+.regimrobot{
+    position: absolute;
+    top:25%;
+    left:8%;
+    font-size: 20px;
+    color: rgb(190, 188, 188);
+}
+
+
+.day{
+    position: absolute;
+    top:33%;
+    left:8%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+
+.day2{
+    position: absolute;
+    top:38.5%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.zvonok{
+    position: absolute;
+    top:55%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.nomer{
+    position: absolute;
+    top:61%;
+    left:8%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.predlogeniu{
+    position: absolute;
+    top:25%;
+    left:50%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.sylka{
+    position: absolute;
+    top:32%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 123, 0);
+}
+
+.adress{
+    position: absolute;
+    top:55%;
+    left:50%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+.adres3{
+    position: absolute;
+    top:62%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.border{
+    position: absolute;
+    top: 83%;
+    left: 0%;
+    background-color: rgb(190, 188, 188);
+    width: 100%;
+    height: 1px;
+}
+
+
+
+@media all and (max-width: 768px){
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Arial";
+}
+
+
+.page1{
+    width: 100%;
+    height: 12dvh;
+    background-color: #131212;
+}
+
+
+.compani{
+    position: absolute;
+    top:4%;
+    left:8%;
+    font-size: 22.5px;
+    font-weight: bold;
+    color:white;
+    font-family:"Arial";
+    
+}
+
+
+.companiinfa{
+    position: absolute;
+    top:7%;
+    left:8%;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.342);
+    font-family:"Arial";
+}
+
+
+.btn{
+    position: absolute;
+    top:20%;
+    left: 8%;
+    width: 30%;
+    height: 7%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+
+.adres{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 13%;
+    left: 8%;
+
+}
+
+
+.number{
+    font-family: "Arial";
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top:16%;
+    left:8%;
+    font-weight: bold;
+}
+
+
+.page2{
+    width: 100%;
+    height: 100dvh;
+    background-color:  #131212;
+    top: 50%;
+}
+
+
+.photo1{
+    position: absolute;
+    background-image: url(fon_2.jpg);
+    background-size: cover;
+    background-position: center;
+    top:31%;
+    left:2%;
+    height:20%;
+    width: 96%;
+    border-radius: 30px; 
+}
+
+
+.menu{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top :35%;
+    left: 8%;
+    width: 84%;
+    height: 7%;
+    border-radius: 15px;
+}
+
+
+.stranith1{
+    position: absolute;
+    background-color: transparent;
+    top :36.1%;
+    left: 8.8%;
+    border: 1.5px solid rgb(255, 253, 253);
+    width:13%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith1:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith2{
+    position: absolute;
+    background-color: transparent;
+    top :36%;
+    left: 22.7%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 13%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith2:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+}
+
+
+.stranith3{
+    position: absolute;
+    background-color: transparent;
+    top :36%;
+    left: 36.7%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 13%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith3:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith4{
+    position: absolute;
+    background-color: transparent;
+    top :36%;
+    left: 50.6%;
+    border: 1.5px solid rgb(255, 254, 254);
+    width: 13%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith4:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith5{
+    position: absolute;
+    background-color: transparent;
+    top :36%;
+    left: 64.5%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 13%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith5:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+.stranith6{
+    position: absolute;
+    background-color: transparent;
+    top :36%;
+    left: 78.3%;
+    border: 1.5px solid rgb(255, 255, 255);
+    width: 13%;
+    height: 5%;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    font-family:"Arial";
+}
+
+
+.stranith6:hover{
+    color: #c5420f;
+    border:  1px solid  #cf6118;
+    transition-duration: 0.3s;
+    font-family:"Arial";
+}
+
+
+
+
+.page3{
+    position: absolute;
+    top:55%;
+    left: 0%;
+    width: 100%;
+    height: 150%;
+    background-color: white;
+}
+
+
+
+.uslygi{
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.uslygiinfa{
+    position: absolute;
+    top: 13%;
+    left: 8%;
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+    width: 80%;
+    border:1px solid rgb(255, 255, 255);
+}
+
+
+
+.zapolnenie{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(71, 71, 71) ;
+}
+
+
+.zapolnenieinfa{
+    position: absolute;
+    top: 44%;
+    left: 8%;
+    font-size: 20px;
+    color: rgb(59, 59, 59);  
+    width: 80%;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.page4{
+    position: absolute;
+    top:210%;
+    left: 0%;
+    width: 100%;
+    height: 200%;
+    background-color:rgb(255, 255, 255);
+}
+
+.baza{
+    position: absolute;
+    background-image: url(car.png);
+    background-size: cover;
+    background-position: center;
+    top: 2.5%;
+    left: 47.2%;
+    height: 3%;
+    width: 10%;
+}
+
+.bazafon{
+    background-color:#eeffa0;
+    position: absolute;
+    top:0.5%;
+    left: 44%;
+    width: 16%;
+    height: 7%;
+    border-radius: 50%;
+}
+
+
+.baza1{
+    position: absolute;
+    top:8%;                                                                   
+    left: 44%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.baza1infa{
+    position: absolute;
+    top:10%;
+    left: 22%;
+    font-size: 18px;
+    color: #3b3434;
+}
+
+
+.money1{
+    position: absolute;
+    top:12%;
+    left: 46.5%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #201d1d;
+    text-decoration: line-through;
+}
+
+.money2{
+    position: absolute;
+    top:14%;
+    left: 45%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.infa1{
+    position: absolute;
+    top:17%;
+    left: 36%;
+    font-size: 16px;
+}
+
+
+.btn1{
+    position: absolute;
+    top:21%;
+    left:36.5%;
+    width: 30%;
+    height: 3%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    background: rgb(89, 182, 89);
+    color: white;
+    font-family:"Arial";
+}
+
+
+.standartfon{
+    background-color:#eeffa0;
+    position: absolute;
+    top:28%;
+    left: 44%;
+    width:16%;
+    height: 7%;
+    border-radius: 50%;
+}
+
+
+.standart1{
+    position: absolute;
+    top: 35.5%;
+    font-size: 28px;
+    font-weight: bold;
+    left: 43.5%;
+}
+
+
+.standart1infa{
+    position: absolute;
+    top:37.5%;
+    left: 27%;
+    font-size: 18px;
+    color: #3b3434;
+}
+
+
+
+.money3{
+    position: absolute;
+    top:39.5%;
+    left: 46%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #201d1d;
+    text-decoration: line-through;
+}
+
+.money4{
+    position: absolute;
+    top:41.5%;
+    left: 45.3%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.infa2{
+    position: absolute;
+    top:44%;
+    left: 36%;
+    font-size: 16px;
+}
+
+
+.btn2{
+    position: absolute;
+    top:50%;
+    left: 36.5%;
+    width: 30%;
+    height: 3%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    background: rgb(89, 182, 89);
+    color: white;
+    font-family:"Arial";
+}
+.btn3{
+    position: absolute;
+    top: 82%;
+    left: 37%;
+    width: 30%;
+    height: 3%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+    align-content: center;
+    background: rgb(89, 182, 89);
+    color: white;
+    font-family:"Arial";
+}
+
+.fast{
+    position: absolute;
+    background-image: url(raket.png);
+    background-size: cover;
+    background-position: center;
+    top: 60.7%;
+    left: 47%;
+    height: 4%;
+    width: 10%;
+}
+
+.fastfon{
+    background-color:#eeffa0;
+    position: absolute;
+    top:59%;
+    left: 44%;
+    width: 16%;
+    height: 7%; 
+    border-radius: 50%;
+}
+
+
+.fast1{
+    position: absolute;
+    top:66.5%;
+    left:44.5%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.fast1infa{
+    position: absolute;
+    top:68.5%;
+    left: 23%;
+    font-size: 17.5px;
+    color: #3b3434;
+}
+
+.money5{
+    position: absolute;
+    top:70.5%;
+    left: 46%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #201d1d;
+    text-decoration: line-through;
+}
+
+.money6{
+    position: absolute;
+    top:72.5%;
+    left: 44.5%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.infa3{
+    position: absolute;
+    top:75%;
+    left:36%;
+    font-size: 16px;
+}
+
+
+
+.page5{
+    position: absolute;
+    background-image: url(kartinka_333.webp); 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    top:390%;
+    left: 0%;
+    height: 50%;
+    width: 100%;
+}
+
+
+.money{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+
+
+.zauvka{
+    position: absolute;
+    top:31%;
+    left:8%;
+    font-size: 15px;
+    color:  #cf6118;
+    font-weight: bold;
+    background-color: #191919;
+    width: 80%;
+    height: 11%;
+    text-align: center;
+    align-content: center;
+    border-radius:5px;
+}
+
+
+.zauvka:hover{
+    background-color:#ff6600;
+    color: #191919;
+}
+
+
+
+.name{
+    position: absolute;
+    top: 47%;
+    left: 8%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);;
+    width:80%;
+    height: 11%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+
+::placeholder {
+  color:  #ff4800;
+  font-weight: bold;
+}
+
+
+.phonenumber{
+    position: absolute;
+    top: 63%;
+    left: 8%;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);;
+    width:80%;
+    height: 11%;
+    border-radius: 10px;
+    padding-left: 20px;
+    align-content: center;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+
+.btn20{
+    position: absolute;
+    top: 77%;
+    left: 8%;
+    width: 25%;
+    height: 12%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+    align-content: center;
+    background: linear-gradient(90deg, #ff6606, #ff2d2b);
+    color: white;
+    font-family:"Arial";
+    &:hover{
+        box-shadow: 0px 8px 10px #ff6606;
+        transition-duration: 0.5s;
+    }
+}
+
+.page6{
+    position: absolute;
+    top:440%;   
+    left: 0%;
+    width: 100%;
+    height: 45%;
+    background-color:  #131212;
+}
+
+
+.regimrobot{
+    position: absolute;
+    top:25%;
+    left:8%;
+    font-size: 20px;
+    color: rgb(190, 188, 188);
+}
+
+
+.day{
+    position: absolute;
+    top:33%;
+    left:8%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+
+.day2{
+    position: absolute;
+    top:38.5%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.zvonok{
+    position: absolute;
+    top:55%;
+    left:8%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.nomer{
+    position: absolute;
+    top:61%;
+    left:8%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.predlogeniu{
+    position: absolute;
+    top:25%;
+    left:50%;
+    font-size: 17px;
+    color: rgb(190, 188, 188);
+}
+
+
+.sylka{
+    position: absolute;
+    top:32%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 123, 0);
+}
+
+.adress{
+    position: absolute;
+    top:55%;
+    left:50%;
+    font-size: 17px;
+    color:  rgb(190, 188, 188);
+}
+
+.adres3{
+    position: absolute;
+    top:62%;
+    left:50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.border{
+    position: absolute;
+    top: 83%;
+    left: 0%;
+    background-color: rgb(190, 188, 188);
+    width: 100%;
+    height: 1px;
+}
+
+}
